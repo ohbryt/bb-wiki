@@ -9,7 +9,7 @@ tags: [meta]
 # Brown Biotech Wiki Index
 
 > 페이지 카탈로그. 섹션별로 정리. 50개 초과 시 sub-section 분리, 200개 초과 시 `_meta/topic-map.md` 작성.
-> Last updated: 2026-06-15 | Total pages: 15 (PoC 3 + ingest 11 + query 1)
+> Last updated: 2026-06-15 | Total pages: 16 (PoC 3 + ingest 11 + query 2)
 
 ## Concepts
 
@@ -50,6 +50,7 @@ tags: [meta]
 > 에세이급 답변. 재사용 가치가 있는 종합 분석 결과.
 
 - [[2026-06-15-keap1-nrf2-metabolic-vulnerabilities]] — KEAP1-NRF2 metabolic vulnerabilities in NSCLC, 6 BB-actionable angles (PPIA/CsA, SHMT, GCLC, HMOX1, p62, NADH-reductive)
+- [[2026-06-15-keap1-nrf2-io-biomarker-companion-diagnostic]] — **sister query** — KEAP1-NRF2 IO biomarker & companion diagnostic, 8 BB-actionable angles (POSEIDON dual ICB, MTAP-PRMT5, EMSY-PARP, ATRi-LKB1, 3-gene exclusion, glutaminase rescue) — **3-tier "BB-IO Compass" diagnostic product candidate**
 
 ---
 
@@ -61,7 +62,7 @@ tags: [meta]
 | Mitochondrial / OXPHOS | `#oxphos` | 1 |
 | AI/ML methods | `#ai` | 6 |
 | MASH / MASLD | `#mash` | 1 |
-| Refractory cancer | `#cancer` | 0 (via #oxphos, #peptide) |
+| Refractory cancer | `#cancer` | 2 (KEAP1 query × 2) |
 | Peptide | `#peptide` | 0 |
 | IPF / Fibrosis | `#ipf`, `#fibrosis` | 0 |
 | Sarcopenia / Aging Muscle | `#sarcopenia` | 0 |

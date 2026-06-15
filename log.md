@@ -15,6 +15,19 @@
 - 4 seed PMIDs cited (17020408, 20534738/PMC2920733, PMC6133308, PMC10189287)
 - Companion: [[timesfm]] (XReg covariates for time-course), [[scgpt_deep_analysis]] (NRF2-high subpop), [[ai-drug-discovery]] (FPembed for HO-1)
 
+## [2026-06-15] create | KEAP1-NRF2 IO biomarker & companion diagnostic query (sister)
+- Type: query
+- Created: queries/2026-06-15-keap1-nrf2-io-biomarker-companion-diagnostic.md
+- Source: PubMed filter (298 hits, 2018-2026, English) — top 20 retrieved, top 8 by IO-relevance
+- Tags: #cancer #biomarker #drug-discovery #ai
+- Cross-references: 2026-06-15-keap1-nrf2-metabolic-vulnerabilities (sister), timesfm, scgpt_deep_analysis, ai-drug-discovery, arp27_vs_claw_ai_lab_analysis
+- 4-섹션: Source Quotes (7 quotes) / My Interpretation (2024-2025 inflection, KEAP1 reframing, 9 total drug targets, GLS bridge) / Open Questions (8) / Contradictions (4)
+- 8 BB-actionable companion-diagnostic / combo angles: POSEIDON dual ICB, MTAP-PRMT5, EMSY-PARP/STING, ATRi-LKB1, re-biopsy panel, 3-gene exclusion, glutaminase-ICB, neoadjuvant CIT exclusion
+- **Product candidate identified: 3-tier "BB-IO Compass" diagnostic** (Tier 1: STK11/KEAP1/SMARCA4 exclusion + PD-L1 + TMB, Tier 2: LKB1/KEAP1/KRAS + EMSY + MTAP, Tier 3: re-biopsy resistance panel)
+- Ancher papers: Skoulidis Nature 2024 (POSEIDON), Galan-Cobo Cancer Cell 2025 (HUDSON), Ricciuti JCO 2024 + JAMA Oncol 2025, Alessi JTO 2023
+- Sister: [[2026-06-15-keap1-nrf2-metabolic-vulnerabilities]] (mechanism → drug axis)
+- Combined drug axis count: 6 (q#1) + 4 (q#2 new) = **9 actionable drug targets**
+
 ## [2026-06-15] create | TimesFM concept page
 - Type: concept
 - Created: concepts/timesfm.md
