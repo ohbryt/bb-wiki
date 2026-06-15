@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Raw layer (external symlink — see README)
+# raw/ → /Users/ocm/openclaw/workspace/arp-v27/literature (tracked as symlink, target is in arp-v27 repo)
+
+# Local env
+.env
+.env.local

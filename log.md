@@ -1,0 +1,135 @@
+# Wiki Log
+
+> 시계열 액션 로그. Append-only.
+> Format: `## [YYYY-MM-DD] action | subject`
+> Actions: create, ingest, update, query, lint, archive, delete, link
+
+## [2026-06-15] create | KEAP1-NRF2 metabolic vulnerabilities query
+- Type: query
+- Created: queries/2026-06-15-keap1-nrf2-metabolic-vulnerabilities.md
+- Source: PubMed filter (126 hits, 2018-2026, English) — top 8 by relevance
+- Tags: #cancer #drug-discovery #ai #longevity
+- Cross-references: timesfm (time-course RNA-seq), scgpt (NRF2-high subpop), ai-drug-discovery (HO-1 FPembed screen)
+- 4-섹션: Source Quotes (8 abstracts) / My Interpretation (5 axes, 4 drug repurposable) / Open Questions (5) / Contradictions (none)
+- 6 BB-actionable angles: CsA/PPIA, NADH-reductive 13% responder, GCLC/ferroptosis, LKB1×KEAP1/SHMT, HO-1/cisplatin, p62 hub
+- 4 seed PMIDs cited (17020408, 20534738/PMC2920733, PMC6133308, PMC10189287)
+- Companion: [[timesfm]] (XReg covariates for time-course), [[scgpt_deep_analysis]] (NRF2-high subpop), [[ai-drug-discovery]] (FPembed for HO-1)
+
+## [2026-06-15] create | TimesFM concept page
+- Type: concept
+- Created: concepts/timesfm.md
+- Source: https://github.com/google-research/timesfm (manual ingest, GitHub repo not paper)
+- Tags: #ai #biostat #longevity #transcriptomics #metabolomics #drug-discovery
+- Cross-references: scgpt_deep_analysis (single-cell FM complement), aurora_deep_analysis (FM family), arp27_vs_claw_ai_lab_analysis
+- 4-섹션: Source Quotes (README 3 quotes) / My Interpretation (XReg + LoRA 패턴이 BB에 fit) / Open Questions (3) / Contradictions (none)
+- Companion sidecar: public/content/research-pulse/2026-06-15-timesfm.md
+
+> 500 entry 도달 시 `log-YYYY.md`로 회전.
+
+## [2026-06-14] create | Brown Biotech LLM-Wiki 초기화
+- Wiki path: `/Users/ocm/openclaw/workspace/bb-wiki/`
+- Domain: Longevity, refractory disease, drug discovery, peptide, AI/ML for biology
+- Structure: SCHEMA.md, index.md, log.md, raw/, concepts/, entities/, comparisons/, queries/, assets/, scripts/, _archive/
+- Schema: BB 14 query family + meta tags, 4-section judgment layer mandatory
+- PoC pages: 3 (oxphos-cancer-vulnerability, naaa-chembl2419814, naaa-vs-mgll-inhibitors)
+- Symlinks:
+  - `raw/` → `/Users/ocm/openclaw/workspace/arp-v27/literature/` (41 files, immutable source layer)
+  - `~/Documents/Obsidian Vault/brown-biotech` → `/Users/ocm/openclaw/workspace/bb-wiki/` (Obsidian browsing)
+- Scripts: `scripts/ingest_deep_dive.py`, `scripts/wiki_lint.py`
+- Paper intake workflow patched: Track F (Wiki compound) added
+- Inspired by: An Lab @ Korea University, "사유와 탐구, 책임의 주체로 오는 당신을 기다리며" (2026-06-13)
+
+## [2026-06-14] ingest | arp-v27 deep-dive 일괄 ingest (10 .md)
+- 5 신규: MASH_Review_Deep_Integration, SSR_Likert_SyntheticConsumers_Deep_Analysis, TPP_DGAT1_Conjugate_Research_Plan, scGPT_Deep_Analysis, turbovec_TurboQuant_Analysis
+- 5 idempotent (재처리): ARP27_vs_Claw, AURORA, Agentic_Patterns, Claw_AI_Lab_Brief, LIVIA
+- Total wiki pages: 13 (3 curated + 10 ingested)
+- Lint: 0 errors, 13 warnings (8 wikilink + 5 split), 5 info (orphan) — 모두 Dr. OCM 판단 레이어 채우기로 해소
+
+## [2026-06-14] update | 4-섹션 판단 레이어 샘플 작성 (2 pages)
+- `concepts/livia_deep_analysis.md` — Source Quotes 5 + My Interpretation 5 + Open Questions 5 + Contradictions 1 + 5 cross-links
+- `comparisons/arp27_vs_claw_ai_lab_analysis.md` — Source Quotes 5 + My Interpretation 5 + Open Questions 5 + Contradictions 1 + 5 cross-links
+- 두 페이지 모두 lint warnings 0건 (An Lab pedagogy 입증)
+
+## [2026-06-14] go | bb-wiki v1.0.0 — Checkpoint 3 (Go/No-go) APPROVED
+- Status: **LIVE / daily 운영 모드 진입**
+- Path: `/Users/ocm/openclaw/workspace/bb-wiki/`
+- Track F: brown-biotech-paper-intake-workflow 의 A/B/C/D/E 에 추가됨
+- Skill `bb-wiki` 등록: `~/.hermes/skills/brown-biotech/bb-wiki/SKILL.md`
+- Obsidian 브라우징: `~/Documents/Obsidian Vault/brown-biotech`
+- Daily rhythm: 새 paper → `python3 scripts/ingest_deep_dive.py` → 4-섹션 placeholder → Dr. OCM 채우기
+- Weekly rhythm (Friday): `python3 scripts/wiki_lint.py --strict` → wikilink/split/stale 정리
+
+## [2026-06-14] ingest | ARP27_vs_Claw_AI_Lab_Analysis.md
+- Type: comparison
+- Created: comparisons/arp27_vs_claw_ai_lab_analysis.md
+- Source: raw/ARP27_vs_Claw_AI_Lab_Analysis.md
+
+## [2026-06-14] ingest | AURORA_Deep_Analysis.md
+- Type: concept
+- Created: concepts/aurora_deep_analysis.md
+- Source: raw/AURORA_Deep_Analysis.md
+
+## [2026-06-14] ingest | Agentic_Patterns_BrownBiotech_Mapping.md
+- Type: concept
+- Created: concepts/agentic_patterns_brownbiotech_mapping.md
+- Source: raw/Agentic_Patterns_BrownBiotech_Mapping.md
+
+## [2026-06-14] ingest | Claw_AI_Lab_Brief.md
+- Type: concept
+- Created: concepts/claw_ai_lab_brief.md
+- Source: raw/Claw_AI_Lab_Brief.md
+
+## [2026-06-14] ingest | LIVIA_Deep_Analysis.md
+- Type: concept
+- Created: concepts/livia_deep_analysis.md
+- Source: raw/LIVIA_Deep_Analysis.md
+
+## [2026-06-14] ingest | ARP27_vs_Claw_AI_Lab_Analysis.md
+- Type: comparison
+- Created: comparisons/arp27_vs_claw_ai_lab_analysis.md
+- Source: raw/ARP27_vs_Claw_AI_Lab_Analysis.md
+
+## [2026-06-14] ingest | AURORA_Deep_Analysis.md
+- Type: concept
+- Created: concepts/aurora_deep_analysis.md
+- Source: raw/AURORA_Deep_Analysis.md
+
+## [2026-06-14] ingest | Agentic_Patterns_BrownBiotech_Mapping.md
+- Type: concept
+- Created: concepts/agentic_patterns_brownbiotech_mapping.md
+- Source: raw/Agentic_Patterns_BrownBiotech_Mapping.md
+
+## [2026-06-14] ingest | Claw_AI_Lab_Brief.md
+- Type: concept
+- Created: concepts/claw_ai_lab_brief.md
+- Source: raw/Claw_AI_Lab_Brief.md
+
+## [2026-06-14] ingest | LIVIA_Deep_Analysis.md
+- Type: concept
+- Created: concepts/livia_deep_analysis.md
+- Source: raw/LIVIA_Deep_Analysis.md
+
+## [2026-06-14] ingest | MASH_Review_Deep_Integration.md
+- Type: concept
+- Created: concepts/mash_review_deep_integration.md
+- Source: raw/MASH_Review_Deep_Integration.md
+
+## [2026-06-14] ingest | SSR_Likert_SyntheticConsumers_Deep_Analysis.md
+- Type: concept
+- Created: concepts/ssr_likert_syntheticconsumers_deep_analysis.md
+- Source: raw/SSR_Likert_SyntheticConsumers_Deep_Analysis.md
+
+## [2026-06-14] ingest | TPP_DGAT1_Conjugate_Research_Plan.md
+- Type: concept
+- Created: concepts/tpp_dgat1_conjugate_research_plan.md
+- Source: raw/TPP_DGAT1_Conjugate_Research_Plan.md
+
+## [2026-06-14] ingest | scGPT_Deep_Analysis.md
+- Type: concept
+- Created: concepts/scgpt_deep_analysis.md
+- Source: raw/scGPT_Deep_Analysis.md
+
+## [2026-06-14] ingest | turbovec_TurboQuant_Analysis.md
+- Type: concept
+- Created: concepts/turbovec_turboquant_analysis.md
+- Source: raw/turbovec_TurboQuant_Analysis.md
