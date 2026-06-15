@@ -9,7 +9,7 @@ tags: [meta]
 # Brown Biotech Wiki Index
 
 > 페이지 카탈로그. 섹션별로 정리. 50개 초과 시 sub-section 분리, 200개 초과 시 `_meta/topic-map.md` 작성.
-> Last updated: 2026-06-15 | Total pages: 16 (PoC 3 + ingest 11 + query 2)
+> Last updated: 2026-06-15 | Total pages: 17 (PoC 3 + ingest 12 + query 2)
 
 ## Concepts
 
@@ -25,6 +25,8 @@ tags: [meta]
 - [[aurora_deep_analysis]] — AURORA cross-modality AI for longevity (Chen et al. 2026)
 - [[scgpt_deep_analysis]] — scGPT foundation model for single-cell biology
 - [[timesfm]] — TimesFM 2.5 time-series foundation model (Google Research, ICML 2024) — **temporal axis FM**
+- [[bb-io-compass]] — **product** — BB-IO Compass Tier 1 clinical genomics decision-support test (STK11/KEAP1/SMARCA4 + PD-L1 + TMB) for NSCLC 1st-line CIT. LDT under CLIA + CAP, 12-month MVP. **First BB clinical product**
+- [[bb-io-compass-operations]] — **product sibling** — LIMS workflow, analytical & clinical validation, CLIA/CAP pathway, revenue model, 18-month milestones
 - [[mash_review_deep_integration]] — MASH/MASLD review integration
 - [[tpp_dgat1_conjugate_research_plan]] — TPP/DGAT1 conjugate research plan
 - [[turbovec_turboquant_analysis]] — turbovec vector index (Codrai 2026)
@@ -63,6 +65,7 @@ tags: [meta]
 | AI/ML methods | `#ai` | 6 |
 | MASH / MASLD | `#mash` | 1 |
 | Refractory cancer | `#cancer` | 2 (KEAP1 query × 2) |
+| **Clinical Dx (new)** | `#dx`, `#biomarker` | **2** (BB-IO Compass product spec) |
 | Peptide | `#peptide` | 0 |
 | IPF / Fibrosis | `#ipf`, `#fibrosis` | 0 |
 | Sarcopenia / Aging Muscle | `#sarcopenia` | 0 |

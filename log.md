@@ -28,6 +28,23 @@
 - Sister: [[2026-06-15-keap1-nrf2-metabolic-vulnerabilities]] (mechanism → drug axis)
 - Combined drug axis count: 6 (q#1) + 4 (q#2 new) = **9 actionable drug targets**
 
+## [2026-06-15] create | BB-IO Compass product spec (Tier 1 LDT)
+- Type: concept (product spec, two pages — main + operations)
+- Created: concepts/bb-io-compass.md (102 lines) + concepts/bb-io-compass-operations.md (181 lines)
+- Tags added to SCHEMA: `#biomarker`, `#dx`
+- **First Brown Biotech clinical product** (vs research services)
+- Tier 1: STK11 + KEAP1 + SMARCA4 NGS + PD-L1 IHC (22C3) + TMB → 1st-line CIT decision in NSCLC
+- 3-tier roadmap: Tier 1 (1st-line) → Tier 2 (alternative) → Tier 3 (acquired resistance)
+- Path: LDT under CLIA + CAP, MVP 12 months, revenue Year 1 $0.5-1M, Year 3 $3-5M
+- Pharma partnership anchor: AZN (POSEIDON, durvalumab+tremelimumab) — STK11/KEAP1 subset = BB Tier 1 directly validated
+- Pricing: $1,000/test (Medicare CPT 81445 + 88360 + 81479 + professional), 600-800 tests break-even
+- CAPEX: $650-900K (Year 1); OPEX: $550K/yr
+- Cross-references: 2026-06-15-keap1-nrf2-io-biomarker-companion-diagnostic (evidence base), 2026-06-15-keap1-nrf2-metabolic-vulnerabilities (mechanism), timesfm, scgpt_deep_analysis, ai-drug-discovery
+- Sister genox-site (Korean consumer genomics, B2C longevity) — BB-IO Compass 는 B2B clinical → **두 라인 분리 운영**
+- 4-섹션: both pages (main + operations) — split to keep each <200 lines
+- Decision matrix: 6 patient profiles × 4 biomarkers → clear CIT vs Tier 2 referral
+- Lab location TBD: US (Boston/SD) vs Korea (Seoul) vs dual-track — Open Question
+
 ## [2026-06-15] create | TimesFM concept page
 - Type: concept
 - Created: concepts/timesfm.md

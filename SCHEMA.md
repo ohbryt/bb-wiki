@@ -100,6 +100,8 @@ bb-wiki/
 | `#ai` | AI/ML for biology | ARP v27, SoI |
 | `#synthesis` | Chemistry, drug synthesis | ARP v27 |
 | `#clinical` | Clinical trials, translational | BB clinical pipeline |
+| `#biomarker` | Predictive / prognostic biomarker, companion diagnostic | genox-site (BB-IO Compass) |
+| `#dx` | In-vitro diagnostic, LDT, CLIA/CAP lab | genox-site (BB-IO Compass) |
 
 ### 메타 태그
 
