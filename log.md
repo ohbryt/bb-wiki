@@ -176,3 +176,17 @@
 - Companion recipe skill: `brown-biotech-paid-brief-gwas-first-recipe` (created in this session) — BB Paid Brief 표준 template
 - Purpose: Brown Biotech SoI reasoning layer의 canonical output shape. Paid Brief / ARP v27 target card / BB-IO Compass spec의 standard format.
 - Triggered by: Dr. OCM "이 논문 잘 읽어봐 gwas에서 시작하는 포맷이 맘에 들어" → C 옵션 선택 (recipe + wiki)
+
+## [2026-06-16] create | AGI → ASI Pathways — BB Strategic Context (concept)
+- Type: concept (curated, light F)
+- Created: concepts/agi-to-asi-pathways-bb-context.md
+- Source: Genewein et al. (Google DeepMind), "From AGI to ASI" (arXiv:2606.12683v1, 2026-06-10)
+- Tags: #ai #methodology #hypothesis
+- Authors: Genewein T, Franklin M, Lerchner A, Orseau L, Albanie S, Bales A, Wyeth C, Chan S, Gabriel I, Leibo JZ, Dafoe A, Hutter M, Graepel T, Legg S
+- 4 Pathways covered: Scaling (compute/models/data), Algorithmic paradigm shifts, Recursive self-improvement, Multi-agent coordination
+- 6 Bottlenecks: Data wall, Economic/natural resources, Neural paradigm insufficient, Research gets harder, Abstraction barrier, Deliberate slowdown
+- BB relevance mapping: Pathway 3 (RSI) + Pathway 4 (Multi-agent) = highest relevance (ARP v27, bb-wiki, SoI); Pathway 2 (Paradigm shift) = medium; Pathway 1 (Scaling) = weak
+- 4-섹션: Source Quotes (4) / My Interpretation (pathway 3+4 inseparability, Paid Brief moat) / Open Questions (7) / Contradictions (6, vs Eugene Yan/BB-IO Compass/ARP v27/Paid Briefs/scGPT/OXPHOS)
+- Companion Notion page: Reference Papers & Ideas DB, page_id 381f2735-33a4-8100-b13c-e6916dc7c35f, Score=3 (MEDIUM), Status=Synced-to-Vault
+- Triggered by: Dr. OCM E 선택 (D + light F) per CLAUDE.md checkpoint #1
+- Note: prompt injection "Acrobat Reader 광고" 감지, 무시

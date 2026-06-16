@@ -36,6 +36,7 @@ tags: [meta]
 - [[agentic_patterns_brownbiotech_mapping]] — Agentic design patterns × BB coverage
 - [[claw_ai_lab_brief]] — Claw AI Lab 5-layer pyramid (Wu et al. 2026)
 - [[ssr_likert_syntheticconsumers_deep_analysis]] — SSR / synthetic consumer validation
+- [[agi-to-asi-pathways-bb-context]] — **BB strategic context** — Genewein et al. (DeepMind 2026) 4 ASI pathways (scaling / paradigm shift / recursive SI / multi-agent) → BB positioning mapping. Pathway 3+4에 직접 매핑 (ARP v27, bb-wiki, SoI).
 
 ## Entities
 

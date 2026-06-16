@@ -133,7 +133,7 @@ GWAS-first 5-stage arc는 **decision-maker가 30초 안에 first-pass 판단**�
 - **Q2.** BB-IO Compass (NSCLC CIT) 의 brief output도 이 5-stage arc로 재구성할 수 있는가? POSEIDON trial data가 Stage 1, STK11/KEAP1/SMARCA4 functional genomics가 Stage 2, KEAP1-NRF2 pathway model이 Stage 5. **실험:** bb-io-compass 페이지를 이 template으로 다시 써보고, 1-page version 만들기.
 - **Q3.** Drug anchor가 없는 brief (예: novel target, rare disease) — 4-stage 변형 (1, 2, 3, 4) 만으로 meaningful한가? 아니면 별도 "biological insight-first" arc가 필요한가?
 - **Q4.** Cross-species evidence가 본질적으로 안 맞는 case (e.g. 인간 특이적 neuro pathway) — format을 어떻게 degrade해야 하는가?
-- **Q5.** 이 5-stage arc가 cs.AI / method 논문에도 적용 가능한 변형이 있는가? "Benchmark-first" arc가 가능한지 — 별도 page 또는 별도 recipe로 박제.
+- **Q5.** 이 5-stage arc가 cs.AI / method 논문에도 적용 가능한 변형이 있는가? "Benchmark-first" arc가 가능한지 — 별도 page 또는 별도 recipe로 박제. (예: [[agi-to-asi-pathways-bb-context]] — strategic context 우선 framing)
 - **Q6.** Paid Brief 클라이언트가 "T1 evidence 없는데 brief 해달라"고 하면 어떻게 거절/리다이렉트? Decision-grade quality bar 명문화 필요.
 - **Q7.** 이 포맷을 "BB-IO Compass / Paid Brief / ARP v27 card" 3종 deliverable에 표준 적용했을 때, 일관성 vs deliverable-specific tone balance 어떻게?
 

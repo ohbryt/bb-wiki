@@ -138,6 +138,7 @@ bb-wiki/
 | `#docking` | Molecular docking | `#synthesis`, `#ai` |
 | `#methodology` | Research methodology / format / framework | 다수 |
 | `#gwas` | GWAS, human genetic association | `#clinical`, `#ai` |
+| `#strategic` | Strategic positioning, business context | 다수 |
 
 ## 페이지 임계값 (Page Thresholds)
 
