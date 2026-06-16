@@ -163,3 +163,16 @@
 - Type: concept
 - Created: concepts/turbovec_turboquant_analysis.md
 - Source: raw/turbovec_TurboQuant_Analysis.md
+
+## [2026-06-16] create | Research Paper Format — GWAS-First 5-Stage Arc (concept)
+- Type: concept (curated)
+- Created: concepts/research-paper-format-gwas-first.md
+- Source: Spears E. et al., *J Clin Invest* 2026;136(12):e173913 (SLC7A2 / arginine / pancreatic α cell)
+- Tags: #clinical #synthesis #methodology
+- 5-Stage arc: Clinical Anchor (GWAS) → Regulatory Overlay (ATAC/ChIP) → Cross-Species Conservation → Causal Perturbation → Mechanism + Drug Anchor
+- Worked example mapped to Spears Fig 1-8 (P < 10⁻¹⁵ EXTEND GWAS, 3-species conservation, mouse+fish+cell-line orthogonal KO, GCGR mAb drug anchor)
+- 4-섹션: Source Quotes (3) / My Interpretation (format inversion, scope/contrast reasoning) / Open Questions (7, including BB-IO Compass reformat test) / Contradictions (6, vs scGPT/LIVIA/Claw/SSR/OXPHOS/agentic-patterns)
+- Cross-references: bb-io-compass, scgpt_deep_analysis, livia_deep_analysis, oxphos-cancer-vulnerability, agentic_patterns_brownbiotech_mapping, ssr_likert_syntheticconsumers_deep_analysis, claw_ai_lab_brief
+- Companion recipe skill: `brown-biotech-paid-brief-gwas-first-recipe` (created in this session) — BB Paid Brief 표준 template
+- Purpose: Brown Biotech SoI reasoning layer의 canonical output shape. Paid Brief / ARP v27 target card / BB-IO Compass spec의 standard format.
+- Triggered by: Dr. OCM "이 논문 잘 읽어봐 gwas에서 시작하는 포맷이 맘에 들어" → C 옵션 선택 (recipe + wiki)

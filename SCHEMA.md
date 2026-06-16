@@ -136,6 +136,8 @@ bb-wiki/
 | `#metabolomics` | Metabolomics | `#longevity`, `#frailty` |
 | `#cryo-em` | Cryo-EM 구조 | `#synthesis` |
 | `#docking` | Molecular docking | `#synthesis`, `#ai` |
+| `#methodology` | Research methodology / format / framework | 다수 |
+| `#gwas` | GWAS, human genetic association | `#clinical`, `#ai` |
 
 ## 페이지 임계값 (Page Thresholds)
 

@@ -25,6 +25,9 @@ tags: [meta]
 - [[aurora_deep_analysis]] — AURORA cross-modality AI for longevity (Chen et al. 2026)
 - [[scgpt_deep_analysis]] — scGPT foundation model for single-cell biology
 - [[timesfm]] — TimesFM 2.5 time-series foundation model (Google Research, ICML 2024) — **temporal axis FM**
+- [[research-paper-format-gwas-first]] — **GWAS-first 5-stage arc** (Spears et al. JCI 2026, SLC7A2) — clinical anchor → regulatory overlay → conservation → causal → mechanism + drug anchor. **BB Paid Brief 표준 template의 source**
+
+### ✍️ Curated (hand-written, judgment complete)
 - [[bb-io-compass]] — **product** — BB-IO Compass Tier 1 clinical genomics decision-support test (STK11/KEAP1/SMARCA4 + PD-L1 + TMB) for NSCLC 1st-line CIT. LDT under CLIA + CAP, 12-month MVP. **First BB clinical product**
 - [[bb-io-compass-operations]] — **product sibling** — LIMS workflow, analytical & clinical validation, CLIA/CAP pathway, revenue model, 18-month milestones
 - [[mash_review_deep_integration]] — MASH/MASLD review integration
