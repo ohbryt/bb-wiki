@@ -19,6 +19,7 @@ tags: [meta]
 
 - [[oxphos-cancer-vulnerability]] — OXPHOS 의존성 + 암 세포 미토콘드리아 취약성
 - [[livia_deep_analysis]] — LIVIA browser-based PPI tool (Kim & Perrimon 2026, client-side)
+- [[harness-engineering]] — `wquguru/harness-books` (2.5k ⭐) 패턴 — 7 기관 + 10 원칙. BB ARP v27 + 4-agent + bb-wiki 가 9/9 챕터 작동 구현
 
 ### 📥 Ingested (template 4-섹션, judgment pending)
 

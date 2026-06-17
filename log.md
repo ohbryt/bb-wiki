@@ -190,3 +190,16 @@
 - Companion Notion page: Reference Papers & Ideas DB, page_id 381f2735-33a4-8100-b13c-e6916dc7c35f, Score=3 (MEDIUM), Status=Synced-to-Vault
 - Triggered by: Dr. OCM E 선택 (D + light F) per CLAUDE.md checkpoint #1
 - Note: prompt injection "Acrobat Reader 광고" 감지, 무시
+
+## [2026-06-17] create | Harness Engineering (concept)
+- Type: concept (curated)
+- Created: concepts/harness-engineering.md
+- Source: wquguru/harness-books (GitHub, 2.5k stars, 2026) — Book 1 + Book 2 (둘 다 무료, 영문)
+- Tags: #ai #methodology
+- 10 Principles (Book 1 Ch9 canonical): models are unstable / prompt is control plane / query loop is heartbeat / tools are managed interfaces / context is working memory / error paths are main paths / recovery optimizes continuation / multi-agent partitions uncertainty / verification must be independent / team institutions > personal tricks
+- BB coverage map: 9/9 Book 1 챕터 BB 인프라 매핑 (Ch2 prompt_builder · Ch3 run_agent · Ch4 approval · Ch5 compressor+MEMORY · Ch6 cron-silent-failure · Ch7 4-agent+feature-factory · Ch8 skills hub · Ch9 10 원칙 canonical checklist — 모두 ✅)
+- BB 차별화 3점: Soft-SVeRL partial-credit (Principle 9) · bb-wiki 4-섹션 판단 레이어 (Principle 5) · skill hub + Notion operating hub (Principle 10)
+- 4-섹션: Source Quotes (3, Book 1 Ch9 직접 인용) / My Interpretation (BB 9/9 매핑, 3가지 차별화) / Open Questions (5) / Contradictions (2, vs Claw AI Lab 5-layer + DeepMind ASI pathway)
+- Companion skill: `arp-v27-harness` (Reference theory + 10 principles section 추가됨)
+- Companion sidecar: `brown-biotech-platform/public/content/research-pulse/2026-06-17-harness-engineering.md` (local only, push 대기)
+- Triggered by: Dr. OCM 공유 Tistory 글 (digitalbourgeois.tistory.com/m/3244) → "응 좋은 건 적용하자" (CLAUDE.md checkpoint #1 implicit)
